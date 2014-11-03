@@ -1,8 +1,8 @@
 {
     "require": {
         "symfony/http-foundation": "2.6.*@dev",
-        "symfony/routing": "2.6.*@dev",
-        "twig/twig": "1.16.*@dev"
+        "twig/twig": "1.16.*@dev",
+        "phroute/phroute": "dev-master"
     },
     "autoload": {
         "psr-0": {"mvc": "src/"}
