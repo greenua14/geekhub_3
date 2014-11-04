@@ -1,5 +1,13 @@
 {
+    "require": {
+        "symfony/http-foundation": "2.6.*@dev",
+        "twig/twig": "1.16.*@dev",
+        "phroute/phroute": "dev-master",
+        "phpunit/phpunit": "4.3.4"
+    },
     "autoload": {
-        "psr-4": {"mvc\\": "src/"}
+        "psr-0": {
+            "mvc": "src/"
+        }
     }
 }
